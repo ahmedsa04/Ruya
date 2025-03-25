@@ -14,7 +14,8 @@ module.exports = {
         whiteBG:"#F1F1F1",
         dark:"#323232",
         gray:"#585858",
-        ruya:"#66BFE5"
+        lightGray:"#969696",
+        ruya:"#7BD7FF"
       },
     },
   },

@@ -1,0 +1,23 @@
+{
+    "status": "ready",
+    "originalFilePath": "videos\\shaker.mp4",
+    "provider": "mux",
+    "providerMetadata": {
+        "mux": {
+            "uploadId": "i3n2ide6OMKaV3K015NYEC02JBDwtXaCmFmYybdy1v7tw",
+            "assetId": "J2BMNu3eOXifDfPqIxMesqX3b6vQRVN901ZTvY4ziGSE",
+            "playbackId": "UMJvsaFkTtbTlIJ02i4x9jDx02OXDWrQwtx9hrJTmsnO8"
+        }
+    },
+    "createdAt": 1742926398149,
+    "updatedAt": 1742926447495,
+    "size": 110477023,
+    "sources": [
+        {
+            "src": "https://stream.mux.com/UMJvsaFkTtbTlIJ02i4x9jDx02OXDWrQwtx9hrJTmsnO8.m3u8",
+            "type": "application/x-mpegURL"
+        }
+    ],
+    "poster": "https://image.mux.com/UMJvsaFkTtbTlIJ02i4x9jDx02OXDWrQwtx9hrJTmsnO8/thumbnail.webp",
+    "blurDataURL": "data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAABwAgCdASoJABAAAQAcJbACdDBGyUu+MJ2BxWjAAP7KpzyG5o/uJnh+JAtY/Zf7/vcSbpalbJ/yedp90m+c30pxw+H5bz2GDfQ1jU+kwmWVqvv7XH7UFWpU5mk3rU2z7dIGm3z17tuKI8ZqwkR7C2nzWIys2dBfiT1Q98Dv38n88WpHkxTZ7m4chT/GV0I7UnQ+f1Oe4wXjy+WGHAAAAA=="
+}

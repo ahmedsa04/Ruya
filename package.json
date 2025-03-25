@@ -3,14 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev & npx next-video sync -w",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@apollo/client": "^3.11.10",
     "@next/font": "^14.2.15",
-    "next": "15.0.3",
+    "axios": "^1.7.8",
+    "next": "^15.2.3",
+    "next-video": "^2.2.0",
+    "npm": "^10.9.2",
     "react": "19.0.0-rc-66855b96-20241106",
     "react-dom": "19.0.0-rc-66855b96-20241106"
   },

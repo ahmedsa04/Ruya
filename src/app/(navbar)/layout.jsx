@@ -1,6 +1,7 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import { Navbar } from "@/components/Navbar";
+import { ErrorBoundary } from "next/dist/client/components/error-boundary";
 const noto = localFont({
   src: [
     {
@@ -52,9 +53,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${noto.variable} antialiased bg-whiteBG`}>
+      <body className={`${noto.variable} antialiased bg-whiteBG h-svh`}>
+        <ErrorBoundary>
         <Navbar/>
         {children}
+        </ErrorBoundary>
       </body>
     </html>
   );
