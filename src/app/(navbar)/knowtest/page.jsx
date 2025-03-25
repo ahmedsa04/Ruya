@@ -4,7 +4,6 @@ import unchecked from '../../../../public/icons/radio_button_unchecked.svg'
 import checked from '../../../../public/icons/radio_button_checked.svg'
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
-import Arrwo from '../../../../public/icons/Arrow up.svg'
 import Link from 'next/link'
 
 
@@ -71,7 +70,7 @@ function page() {
                                         <div className=' mx-4 my-auto'>
                                             <h1 className=' text-dark font-noto text-xl text-start font-bold'>{result.title}</h1>
                                             <h1 className=' text-gray font-noto text-md text-start font-medium'>{result.source}</h1>
-                                            <div className="  flex"><h1 className=" text-ruya font-noto underline font-medium text-[18px]">Know More</h1><Image className=" w-5 h-5 ml-2 mt-1" alt="" src={Arrwo} /></div>
+                                            <div className="  flex"><h1 className=" text-ruya font-noto underline font-medium text-[18px]">Know More</h1></div>
                                         </div>
                                     </div>
                                 </Link>

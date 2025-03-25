@@ -2,7 +2,6 @@ import Image from "next/image"
 import Uni from '../../../../../public/icons/Group 48.svg'
 import Apartment from '../../../../../public/icons/apartment.svg'
 import Public from '../../../../../public/icons/public.svg'
-import Place from '../../../../../public/icons/Place.svg'
 import history from '../../../../../public/icons/history.svg'
 import arrow from '../../../../../public/icons/arrow_back_ios.svg'
 import branch from '../../../../../public/icons/BG1 copy.svg'
@@ -29,7 +28,7 @@ async function page({searchParams}){
                 <h1 className=" mt-14 text-white text-2xl font-noto font-bold">University Of Technology</h1>
                 <div className="flex"><h1 className=" text-white text-2xl font-noto font-bold underline">14</h1><h1 className=" text-white text-2xl font-noto font-regular ml-[6px] ">college</h1><Image className=" w-[30px] h-[30px] ml-2" alt="" src={Apartment}/></div>
                 <div className="flex"><h1 className=" text-white text-2xl font-noto font-regular ">Public school </h1><Image className=" w-[30px] h-[30px] ml-2" alt="" src={Public}/></div>
-                <div className="flex"><h1 className=" text-white text-2xl font-noto font-regular ">Baghdad , Karrada </h1><Image className=" w-[30px] h-[30px] ml-2" alt="" src={Place}/></div>
+                <div className="flex"><h1 className=" text-white text-2xl font-noto font-regular ">Baghdad , Karrada </h1></div>
                 <div className="flex"><h1 className=" text-white text-2xl font-noto font-regular ">1975 </h1><Image className=" w-[30px] h-[30px] ml-2" alt="" src={history}/></div>
             </div>
             <div className=" absolute top-52 right-16">

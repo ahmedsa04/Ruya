@@ -2,7 +2,7 @@ import Image from "next/image"
 import ProfileBG from "../../../../public/Frame 10 (5).svg"
 import arrow from '../../../../public/icons/arrow_back_ios copy.svg'
 import collapseArrow from '../../../../public/icons/arrow_back_ios copy 2.svg'
-import Edit from '../../../../public/icons/Mode.svg'
+
 import compas from '../../../../public/icons/compas copy.svg'
 
 const page = () => {
