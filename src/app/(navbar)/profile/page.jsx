@@ -17,7 +17,7 @@ const page = () => {
         </div>
         <div className=" w-full h-full flex">
         <div className=" w-[50%] h-fit p-4 flex">
-            <Image alt="" src={Edit} className=" w-8 h-8 mt-10 ml-auto"/>
+            
             <div className=" px-4 grid grid-cols-2 mr-auto "><div className=" w-fit h-fit grid grid-rows-2 pt-10"><h1 className=" text-dark font-noto font-bold text-2xl">Name</h1>
             <h1 className=" text-gray font-noto font-regular text-2xl">Ahmed Raed</h1></div>
             <div className=" w-fit h-fit grid grid-rows-2 pt-10"><h1 className=" text-dark font-noto font-bold text-2xl">Birth Date</h1>
