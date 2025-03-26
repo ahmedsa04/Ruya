@@ -33,7 +33,7 @@ async function page({searchParams}){
             </div>
             <div className=" absolute top-52 right-16">
                 <div className=" w-72 h-fit"> 
-                    <Image className=" w-72 h-72 object-cover rounded-3xl" alt="" width={288} height={288} src={data.imageUrl}/>
+                    <img className=" w-72 h-72 object-cover rounded-3xl" alt="" width={288} height={288} src={data.imageUrl}/>
                     <h1 className=" mt-4 text-gray text-2xl font-noto font-bold text-center">{data.name}</h1>
                     <h1 className=" text-gray text-2xl font-noto font-regular text-center">{data.department}</h1>
                 </div>

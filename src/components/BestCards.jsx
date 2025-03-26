@@ -8,6 +8,6 @@ export const BestCards = ({ Best }) => {
         <h1 className=" text-white font-noto font-regular text-[15px]">{Best.university}</h1>
         <div className=" mt-3 flex"><h1 className=" text-white font-noto underline font-medium text-[18px]">تعرف للمزيد</h1></div>
       </div>
-      <Image width={1} height={1} className=" w-full h-[100%] object-cover" alt="" loading='lazy' src={Best.imageUrl} /></div>
+      <img width={1} height={1} className=" w-full h-[100%] object-cover" alt="" loading='lazy' src={Best.imageUrl} /></div>
   )
 }
