@@ -6,7 +6,7 @@ import { HorizontalCards } from "@/components/HorizontalCards";
 import { BestCards } from "@/components/BestCards";
 
 async function getData() {
-  const res = await fetch('http://lcokgog8osc8wco84sso08wc.194.163.168.91.sslip.io/api/Home')
+  const res = await fetch('http://lcokgog8osc8wco84sso08wc.194.163.168.91.sslip.io/api/Home',{ cache: 'force-cache' | 'no-store'})
   const data = await res.json()
   return data
 }
@@ -18,7 +18,7 @@ export default async function Home() {
   return (
     <div className=" scroll-smooth pt-20" >
       <div className=" py-4 px-[70px] w-full flex justify-between">
-      <h1 className="text-gray  font-noto font-bold text-3xl tracking-tight">test</h1>
+      <h1 className="text-gray  font-noto font-bold text-3xl tracking-tight">تخصصات مناسبة</h1>
       <h1 className="text-[#969696]  font-noto font-light text-2xl tracking-tight">تخصصات قد تجذب اهتمامك</h1>
       </div>
       <div className=" mx-auto w-11/12 py-4 h-fit grid grid-flow-col col-start-9 overflow-x-scroll overflow-y-hidden scroll-smooth">
