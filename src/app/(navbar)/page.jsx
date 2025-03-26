@@ -6,7 +6,7 @@ import { HorizontalCards } from "@/components/HorizontalCards";
 import { BestCards } from "@/components/BestCards";
 
 async function getData() {
-  const res = await fetch('http://lcokgog8osc8wco84sso08wc.194.163.168.91.sslip.io/api/Home',{ cache: 'force-cache' | 'no-store'})
+  const res = await fetch('http://lcokgog8osc8wco84sso08wc.194.163.168.91.sslip.io/api/Home',{ cache: 'force-cache'})
   const data = await res.json()
   return data
 }
