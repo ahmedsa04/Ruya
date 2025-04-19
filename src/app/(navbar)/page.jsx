@@ -6,7 +6,7 @@ import { HorizontalCards } from "@/components/HorizontalCards";
 import { BestCards } from "@/components/BestCards";
 
 async function getData() {
-  const res = await fetch('https://ruya-vic8.vercel.app/api/proxy/home');
+  const res = await fetch('https://ruya-vic8-cheetahs-projects-e49a8eed.vercel.app/api/proxy/home');
   const contentType = res.headers.get('content-type');
   
   let data;
@@ -17,7 +17,8 @@ async function getData() {
   } else {
     data = await res.text(); // fallback
   }
-  return data;
+  console.log(data)
+  return data
 }
 
 export default async function Home() {
