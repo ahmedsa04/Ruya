@@ -4,22 +4,10 @@ import Video1 from '../../../public/icons/Group 122.svg'
 import Video2 from '../../../public/icons/Group 123.svg'
 import { HorizontalCards } from "@/components/HorizontalCards";
 import { BestCards } from "@/components/BestCards";
-import { getBaseUrl } from "@/lib/getBaseUrl";
 
 async function getData() {
-  const baseUrl = getBaseUrl();
-  const res = await fetch(`${baseUrl}/api/proxy/home`);
-  const contentType = res.headers.get('content-type');
-  
-  let data;
-  if (contentType.includes('application/json')) {
-    data = await res.json();
-  } else if (contentType.startsWith('image/')) {
-    data = await res.blob(); // to create image URL
-  } else {
-    data = await res.text(); // fallback
-  }
-  console.log(data)
+  const res = await fetch('http://lcokgog8osc8wco84sso08wc.194.163.168.91.sslip.io/api/Home',{ cache: 'force-cache'})
+  const data = await res.json()
   return data
 }
 
