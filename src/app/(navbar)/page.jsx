@@ -4,9 +4,11 @@ import Video1 from '../../../public/icons/Group 122.svg'
 import Video2 from '../../../public/icons/Group 123.svg'
 import { HorizontalCards } from "@/components/HorizontalCards";
 import { BestCards } from "@/components/BestCards";
+import { getBaseUrl } from "@/lib/getBaseUrl";
 
 async function getData() {
-  const res = await fetch('https://ruya-vic8-cheetahs-projects-e49a8eed.vercel.app/api/proxy/home');
+  const baseUrl = getBaseUrl();
+  const res = await fetch(`${baseUrl}/api/proxy/home`);
   const contentType = res.headers.get('content-type');
   
   let data;
