@@ -6,5 +6,5 @@ export function getBaseUrl() {
     }
   
     // ✅ On the server (Node.js), use environment variables or fallback
-    return process.env.NEXT_PUBLIC_SITE_URL || 'https://your-vercel-domain.vercel.app';
+    return process.env.NEXT_PUBLIC_SITE_URL || 'https://ruya-vic8.vercel.app';
   }
