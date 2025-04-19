@@ -7,6 +7,15 @@
   --foreground: #171717;
 }
 
+nextjs-portal {
+  display: none;
+}
+
+body {
+  padding: 0 !important; 
+  overflow: auto !important;
+}
+
 .loader {
   display: block;
   --height-of-loader: 4px;
