@@ -1,5 +1,6 @@
+
 export function getBaseUrl() {
-    if (typeof window !== 'undefined') {
+    if (typeof(window) !== 'undefined') {
       // ✅ On the browser, use relative path
       return '';
     }
